@@ -1,0 +1,9 @@
+{
+    "mongodb": {
+        "host": "mongodb://127.0.0.1:27017/",
+        "db": "books_db",
+        "defaultCollection" : "books",
+        "options": {}
+    }
+}
+    

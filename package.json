@@ -1,0 +1,31 @@
+{
+  "name": "hubx_book_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "docker",
+    "node.js",
+    "book",
+    "api",
+    "mongodb"
+  ],
+  "author": "Filiz Devrim Yilmaz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai-http": "^4.4.0",
+    "docker": "^1.0.0",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

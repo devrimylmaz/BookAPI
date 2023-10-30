@@ -1,0 +1,18 @@
+{
+    "SUCCESS": {
+        "httpCode": "200",
+        "code": 0,
+        "errorCode": 0,
+        "message": "OK"
+    },
+    "MISSING_PARAMS_ERROR": {
+        "httpCode": "400",
+        "errorCode": "000001",
+        "message": "One or more route parameters are not defined"
+    },
+    "DUPLICATE_KEY_ERROR": {
+        "httpCode": "400",
+        "errorCode": "000002",
+        "message": "There is book data with the same title"
+    }
+}
